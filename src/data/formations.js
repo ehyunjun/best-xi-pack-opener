@@ -1,0 +1,55 @@
+export const formations = [
+  {
+    id: '4-3-3',
+    name: '4-3-3',
+    slots: [
+      { slot: 'GK', line: 'gk', x: 50, allowed: ['GK'] },
+      { slot: 'LB', line: 'defense', x: 18, allowed: ['DF'] },
+      { slot: 'LCB', line: 'defense', x: 38, allowed: ['DF'] },
+      { slot: 'RCB', line: 'defense', x: 62, allowed: ['DF'] },
+      { slot: 'RB', line: 'defense', x: 82, allowed: ['DF'] },
+      { slot: 'LCM', line: 'midfield', x: 30, allowed: ['MF'] },
+      { slot: 'CM', line: 'midfield', x: 50, allowed: ['MF'] },
+      { slot: 'RCM', line: 'midfield', x: 70, allowed: ['MF'] },
+      { slot: 'LW', line: 'attack', x: 24, allowed: ['FW'] },
+      { slot: 'ST', line: 'attack', x: 50, allowed: ['FW'] },
+      { slot: 'RW', line: 'attack', x: 76, allowed: ['FW'] },
+    ],
+  },
+  {
+    id: '4-2-3-1',
+    name: '4-2-3-1',
+    slots: [
+      { slot: 'GK', line: 'gk', x: 50, allowed: ['GK'] },
+      { slot: 'LB', line: 'defense', x: 18, allowed: ['DF'] },
+      { slot: 'LCB', line: 'defense', x: 38, allowed: ['DF'] },
+      { slot: 'RCB', line: 'defense', x: 62, allowed: ['DF'] },
+      { slot: 'RB', line: 'defense', x: 82, allowed: ['DF'] },
+      { slot: 'LCDM', line: 'midfield', x: 40, allowed: ['MF'] },
+      { slot: 'RCDM', line: 'midfield', x: 60, allowed: ['MF'] },
+      { slot: 'LAM', line: 'midfield', x: 28, allowed: ['MF', 'FW'] },
+      { slot: 'CAM', line: 'midfield', x: 50, allowed: ['MF'] },
+      { slot: 'RAM', line: 'midfield', x: 72, allowed: ['MF', 'FW'] },
+      { slot: 'ST', line: 'attack', x: 50, allowed: ['FW'] },
+    ],
+  },
+  {
+    id: '4-4-2',
+    name: '4-4-2',
+    slots: [
+      { slot: 'GK', line: 'gk', x: 50, allowed: ['GK'] },
+      { slot: 'LB', line: 'defense', x: 18, allowed: ['DF'] },
+      { slot: 'LCB', line: 'defense', x: 38, allowed: ['DF'] },
+      { slot: 'RCB', line: 'defense', x: 62, allowed: ['DF'] },
+      { slot: 'RB', line: 'defense', x: 82, allowed: ['DF'] },
+      { slot: 'LM', line: 'midfield', x: 20, allowed: ['MF', 'FW'] },
+      { slot: 'LCM', line: 'midfield', x: 40, allowed: ['MF'] },
+      { slot: 'RCM', line: 'midfield', x: 60, allowed: ['MF'] },
+      { slot: 'RM', line: 'midfield', x: 80, allowed: ['MF', 'FW'] },
+      { slot: 'LST', line: 'attack', x: 40, allowed: ['FW'] },
+      { slot: 'RST', line: 'attack', x: 60, allowed: ['FW'] },
+    ],
+  },
+];
+
+export default formations;
