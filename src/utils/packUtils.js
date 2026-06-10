@@ -14,7 +14,7 @@ export function createPack(countryId, type = 'country') {
 export function createRandomPack() {
   const country = getRandomItem(countries);
 
-  return createPack(country.id, 'country');
+  return createPack(country.id, 'random');
 }
 
 export function createInitialPacks(count = 10) {
